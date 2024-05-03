@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    background-color: maroon;
+    font-size: 20px;
+    color: whitesmoke;
+
+
+}
+
+.grid-columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: 28% 28% 22% 22%;
+    gap: 2em;
+}
